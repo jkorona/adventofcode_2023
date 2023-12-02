@@ -39,12 +39,12 @@ fdescribe("Advent of code: Day 2", () => {
       expect(result).toEqual(8);
     });
 
-    xit("should calcuate the correct answer to ful puzzle input", () => {
+    it("should calcuate the correct answer to ful puzzle input", () => {
       // when
       const result = task1(data);
 
       // then
-      expect(result).toEqual(8);
+      expect(result).toEqual(2447);
     });
 
   });
