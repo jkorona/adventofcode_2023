@@ -1,0 +1,11 @@
+{
+  "name": "adventofcode_2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Jan Korona <jan.korona@gmail.com>",
+  "license": "ISC"
+}
