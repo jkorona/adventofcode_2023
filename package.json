@@ -7,5 +7,6 @@
     "test": "jasmine"
   },
   "author": "Jan Korona <jan.korona@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }
