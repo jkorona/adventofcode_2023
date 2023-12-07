@@ -1,7 +1,7 @@
 import { task1, task2 } from "../lib/day_07/index.mjs";
 import input from "./input/day_07.mjs";
 
-fdescribe("Advent of code: Day 7", () => {
+describe("Advent of code: Day 7", () => {
 
   describe("Part 1", () => {
     it("should calcuate the correct answer to example input", () => {
@@ -48,12 +48,12 @@ fdescribe("Advent of code: Day 7", () => {
       expect(result).toEqual(5905);
     });
 
-    // it("should calcuate the correct answer to full puzzle input", () => {
-    //   // when
-    //   const result = task1(input);
+    it("should calcuate the correct answer to full puzzle input", () => {
+      // when
+      const result = task2(input);
 
-    //   // then
-    //   expect(result).toEqual(0);
-    // });
+      // then
+      expect(result).toEqual(251003917);
+    });
   });
 });
