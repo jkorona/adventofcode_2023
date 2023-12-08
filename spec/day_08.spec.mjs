@@ -72,4 +72,12 @@ fdescribe("Advent of code: Day 8", () => {
     });
   });
 
+  it("should calcuate the correct answer to full puzzle input", () => {
+    // when
+    const result = task2(input);
+
+    // then
+    expect(result).toEqual(0);
+  });
+
 });
