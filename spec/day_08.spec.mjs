@@ -1,7 +1,7 @@
 import { task1, task2 } from "../lib/day_08/index.mjs";
 import input from "./input/day_8.mjs";
 
-fdescribe("Advent of code: Day 8", () => {
+describe("Advent of code: Day 8", () => {
 
   describe("Part 1", () => {
     it("should calcuate the correct answer to example input #1", () => {
@@ -74,10 +74,10 @@ fdescribe("Advent of code: Day 8", () => {
 
   it("should calcuate the correct answer to full puzzle input", () => {
     // when
-    const result = task2(input);
+    const result = task2([...input]);
 
     // then
-    expect(result).toEqual(0);
+    expect(result).toEqual(10921547990923);
   });
 
 });
